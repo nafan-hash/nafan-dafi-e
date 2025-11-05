@@ -1,13 +1,4 @@
-# 👋 Hi, I'm Nfan!
-
-## 🚀 About Me
-I'm a passionate developer who loves learning new technologies and creating meaningful projects.  
-Always curious about how things work — from web development to automation and AI.
-
-- 🔭 I’m currently working on: Personal projects and open-source contributions  
-- 🌱 I’m learning: JavaScript, Python, and Web Development  
-- 💬 Ask me about: Frontend, APIs, or anything tech-related  
-- ⚡ Fun fact: I enjoy late-night coding sessions ☕💻  
+Profil saya
 
 ---
 
