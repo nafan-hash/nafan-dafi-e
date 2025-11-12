@@ -7,7 +7,7 @@
 <body>
     <header>
         <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="Foto Profil" class="profile-img">
-        <h1>Halo, Saya [Nama Kamu] 👋</h1>
+        <h1>Halo, Saya [Nafan] 👋</h1>
         <p>Web Developer | Programmer | Tech Enthusiast</p>
     </header>
 
