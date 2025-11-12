@@ -1,36 +1,85 @@
-Profil saya
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil GitHub Saya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
----
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
 
-## 🛠️ Tech Stack
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+    img {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      margin-bottom: 20px;
+      border: 3px solid #58a6ff;
+    }
 
----
+    h1 {
+      font-size: 2em;
+      color: #58a6ff;
+      margin-bottom: 10px;
+    }
 
-## 📈 GitHub Stats
-![Nfan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nfan&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nfan&layout=compact&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com?user=Nfan&theme=radical&hide_border=false)
+    p {
+      max-width: 500px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
 
----
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border: 2px solid #58a6ff;
+      border-radius: 8px;
+      color: #58a6ff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
 
-## 🧩 Featured Projects
-- 🌐 [My Portfolio Website](https://github.com/Nfan/portfolio) — A simple portfolio built with HTML, CSS, and JavaScript.  
-- ⚙️ [Cool API Project](https://github.com/Nfan/api-project) — An experimental REST API using Node.js and Express.  
-- 🤖 [Automation Scripts](https://github.com/Nfan/automation) — Useful scripts for everyday developer tasks.
+    .links a:hover {
+      background-color: #58a6ff;
+      color: #0d1117;
+    }
 
----
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://avatars.githubusercontent.com/USERNAME" alt="Foto Profil">
+  <h1>Halo, Saya USERNAME 👋</h1>
+  <p>Saya seorang pengembang web yang senang bereksperimen dengan teknologi open-source. 
+     Di repositori GitHub saya, Anda akan menemukan berbagai proyek web, script otomatisasi, dan eksperimen coding pribadi.</p>
 
-## 🌍 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/Nfan)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/Nfan)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://nfan.dev)
+  <div class="links">
+    <a href="https://github.com/USERNAME" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/USERNAME" target="_blank">LinkedIn</a>
+    <a href="mailto:USERNAME@email.com">Email Saya</a>
+  </div>
 
----
-
-⭐️ From [Nfan](https://github.com/Nfan)
+  <footer>© 2025 USERNAME — Dibuat dengan ❤️ dan GitHub Pages</footer>
+</body>
+</html>
