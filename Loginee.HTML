@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html>
+    <head> 
+        <title>Login</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: lightblue;
+            }
+            h1{
+                color:pink;
+                text-align: center;
+            }
+            p {
+                font-family: verdana;
+                font-size:20x;
+            }
+            </style>
+             
+        
+        <h2>Login admin</h2>
+        <form onsubmit="return cekLogin ()">
+            <label>Masukan Nama:</label><br>
+            <input type="text" id="nama"><br><br>
+
+            <label>Masukan password:</label><br>
+           <input type="text" id="password"><br><br>
+
+           <button type="submit">login</button>
+        </form>
+
+        <p id="hasil"></p>
+        
+        <script>
+            function cekLogin() {
+            var namaSiswa = document.getElementById("nama").value;
+            var passSiswa = document.getElementById("password").value;
+
+            if (namaSiswa =="Admin" && passSiswa =="11111111") {
+            document.getElementById("hasil").innerHTML=
+                "<span style='color:green;'>Login Berhasil,Selamat Datang </span>";
+        } else {
+            document.getElementById("hasil").innerHTML=
+           "<span style='color:red;'>Login Gagal,Mungkin anda SALAH</span>";
+
+        }
+         return false;  // cegah reload
+    }
+        </script>
+        </body>
+        </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="an">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width,initial-scale=1.0">
+        <title>Contoh Javascript Dasar</title>
+     <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align:center;
+            margin-top; 80px;
+            background-color:   #f5f5f5;
+        }
+     </style>
+    </head>
+    <body>
+        <h1>Selamat Datang di Praktikum Javascript!</h1>
+        <button id="tombolSapa">Klick Paragraf !</button>
+        <p id="teksPesan">JANGAN LUPA KLICK!.</p>
+        <button id="tombolWarna">Klick Warna Latar</button>
+       
+
+        <script>
+            // Mendapatkan elemen tombol berdasarkan ID
+            const tombol = document.getElementById('tombolSapa');
+
+            // Menambahkan event listener untuk aksi 'click'
+            tombol.addEventListener('click', function(){
+                
+            });
+
+            // Untuk Tombol Sapa(mengubah teks paragraf)
+            const tombolSapa = document.getElementById('tombolSapa');
+            tombolSapa.addEventListener('click', function(){
+                document.getElementById('teksPesan').textContent = 'Hallo,Anda telah mengubah teks ini dengan Javascript';
+            });
+
+            // Untuk Tombol Warna (mengubah warna latar belakang)
+            const tombolWarna = document.getElementById('tombolWarna');
+            tombolWarna.addEventListener('click', function(){
+                // Pilih warna acak dari daftar
+                const warnaList = ['#FFB6C1','#E6E6FA','#EOFFFF','#FFFACD','#FFDAB9','#D3D3D3'];
+                const warnaAcak = warnaList[Math.floor(Math.random()  * warnaList.length)];
+                document.body.style.backgroundColor = warnaAcak ;
+                
+            });
+
+        </script>
+    </body>
+</html>
