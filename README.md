@@ -1,55 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Saya</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-      text-align: center;
-      padding: 50px;
-    }
-    img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-    }
-    h1 {
-      margin-top: 15px;
-      font-size: 24px;
-    }
-    p {
-      max-width: 400px;
-      margin: 10px auto;
-      line-height: 1.5;
-    }
-    a {
-      display: inline-block;
-      margin: 8px;
-      padding: 8px 16px;
-      border: 1px solid #333;
-      border-radius: 5px;
-      text-decoration: none;
-      color: #333;
-      transition: 0.3s;
-    }
-    a:hover {
-      background-color: #333;
-      color: #fff;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil GitHub Saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="https://avatars.githubusercontent.com/USERNAME" alt="Foto Profil">
-  <h1>Halo, Saya USERNAME</h1>
-  <p>Selamat datang di halaman profil saya!  
-     Saya suka belajar dan berbagi tentang teknologi serta membuat proyek sederhana di GitHub.</p>
+    <header>
+        <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="Foto Profil" class="profile-img">
+        <h1>Halo, Saya [Nama Kamu] 👋</h1>
+        <p>Web Developer | Programmer | Tech Enthusiast</p>
+    </header>
 
-  <a href="https://github.com/USERNAME" target="_blank">GitHub</a>
-  <a href="mailto:USERNAME@email.com">Email</a>
+    <section class="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya seorang pengembang web yang suka belajar hal baru dan berbagi proyek open-source di GitHub.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Proyek Unggulan</h2>
+        <ul>
+            <li><a href="https://github.com/username/proyek1">🚀 Proyek 1</a> — Deskripsi singkat proyek.</li>
+            <li><a href="https://github.com/username/proyek2">💡 Proyek 2</a> — Deskripsi singkat proyek.</li>
+            <li><a href="https://github.com/username/proyek3">⚙️ Proyek 3</a> — Deskripsi singkat proyek.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>🌐 Temukan saya di 
+            <a href="https://github.com/username" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
 </body>
 </html>
+
